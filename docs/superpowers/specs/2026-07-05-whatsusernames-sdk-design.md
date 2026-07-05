@@ -31,7 +31,7 @@ wa.phoneLink({ phone, text? }): Promise<PhoneLinkResult>
 wa.validateUsername({ username }): Promise<UsernameValidation>
 wa.validateKey({ key }): Promise<KeyValidation>
 wa.validatePhone({ phone }): Promise<PhoneValidation>
-wa.qr({ username?, phone?, format?, color?, size?, transparent?, logo? }): Promise<QrResult>
+wa.qr({ username?, phone?, text?, format?, size?, color?, bg? }): Promise<QrResult>
 wa.openApiSpec(): Promise<unknown>
 
 // Business Platform (POST)
