@@ -29,8 +29,12 @@ const qr = await wa.qr({ username: "joao.silva", format: "svg" });
 ### Business Platform / BSUID
 
 ```ts
+const { valid, isParent } = await wa.business.bsuid.validate({ bsuid: "US.13491208655302741918" });
+
 const parsed = await wa.business.bsuid.parse({ bsuid: "US.13491208655302741918" });
 // { countryCode: "US", id: "13491208655302741918", isParent: false }
+
+const { valid: usernameValid, reasons } = await wa.business.username.validate({ username: "joao.silva" });
 
 const contact = await wa.business.contact.resolve({ username: "joao.silva" });
 
