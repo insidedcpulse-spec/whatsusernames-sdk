@@ -1,5 +1,6 @@
 # whatsusernames-sdk
 
+[![CI](https://github.com/insidedcpulse-spec/whatsusernames-sdk/actions/workflows/ci.yml/badge.svg)](https://github.com/insidedcpulse-spec/whatsusernames-sdk/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/whatsusernames-sdk.svg)](https://www.npmjs.com/package/whatsusernames-sdk)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 
